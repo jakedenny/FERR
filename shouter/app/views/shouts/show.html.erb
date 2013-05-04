@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Text:</b>
+  <%= @shout.text %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @shout.user_id %>
+</p>
+
+<p>
+  <b>Shout to:</b>
+  <%= @shout.shout_to_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_shout_path(@shout) %> |
+<%= link_to 'Back', shouts_path %>
